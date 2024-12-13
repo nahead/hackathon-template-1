@@ -1,3 +1,4 @@
+
 {
   "name": "next-ecommerce-shopco",
   "version": "0.1.0",
@@ -50,5 +51,13 @@
     "typescript": "5.6.3",
     "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4"
+
+
+
+    
   }
+
+
+
+
 }

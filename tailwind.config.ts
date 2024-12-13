@@ -17,10 +17,10 @@ const config: Config = {
         xs: "375px",
       },
       width: {
-        frame: "77.5rem",
+        frame: "77.6rem",
       },
       maxWidth: {
-        frame: "77.5rem",
+        frame: "77.6rem",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -77,7 +77,7 @@ const config: Config = {
       keyframes: {
         "accordion-down": {
           from: {
-            height: "0",
+            height: "1",
           },
           to: {
             height: "var(--radix-accordion-content-height)",
@@ -88,7 +88,7 @@ const config: Config = {
             height: "var(--radix-accordion-content-height)",
           },
           to: {
-            height: "0",
+            height: "1",
           },
         },
       },
