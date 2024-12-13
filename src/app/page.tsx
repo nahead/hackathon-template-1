@@ -1,6 +1,6 @@
 import ProductListSec from "@/components/common/ProductListSec";
 import Brands from "@/components/homepage/Brands";
-import DressStyle from "@/components/homepage/DressStyle";
+import DressStyles from "@/components/homepage/DressStyle";
 import Header from "@/components/homepage/Header";
 import Reviews from "@/components/homepage/Reviews";
 import { Product } from "@/types/product.types";
@@ -210,7 +210,7 @@ export default function Home() {
           />
         </div>
         <div className="mb-[50px] sm:mb-20">
-          <DressStyle />
+          <DressStyles />
         </div>
         <Reviews data={reviewsData} />
       </main>

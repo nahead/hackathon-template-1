@@ -28,7 +28,7 @@ const socialsData: SocialNetworks[] = [
   {
     id: 4,
     icon: <FaGithub />,
-    url: "https://github.com/AmnaKafeel",
+    url: "https://github.com",
   },
 ];
 
@@ -105,13 +105,13 @@ const Footer = () => {
             <p className="text-sm text-center sm:text-left text-black/60 mb-4 sm:mb-0 sm:mr-1">
               Shop.co © Made by 
               <Link
-                href="https://github.com/AmnaKafeel"
+                href="https://github.com"
                 className="text-black font-medium"
               >
-                 Amna Kafeel
+             Nahead jokhio
               </Link>
               {", "}
-              Designed by AK
+              Designed by NJ
             </p>
             <div className="flex items-center">
               {paymentBadgesData.map((badge, _, arr) => (
